@@ -1,5 +1,5 @@
-Wheel of Fortune project CS 4398/5394
+Player 2 Player Pong project CS 4398/5394
 
-Collaborators: Sean Summers, Tijmen Buddingh,
+Collaborators: Sean Summers,
 
-Resources: Wheel of Fortune - Java tutorial ( https://www.youtube.com/watch?v=fQAUPsTlCfY )
+Resources: https://youtu.be/xIqeK2hzx1I
