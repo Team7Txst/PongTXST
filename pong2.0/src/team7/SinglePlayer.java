@@ -14,7 +14,7 @@ import javafx.scene.text.Font;
 import javafx.scene.text.TextAlignment;
 import javafx.util.Duration;
 
-public class singlePlayer extends Application {
+public class SinglePlayer extends Application {
 
     //variable
     private static final int width = 800;
