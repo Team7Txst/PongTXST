@@ -1,5 +1,9 @@
-Player 2 Player Pong project CS 4398/5394
+Pong project CS 4398/5394
 
 Collaborators: Sean Summers, Mason Currie, Alejandro Carrillo
 
-Resources: https://youtu.be/xIqeK2hzx1I
+Using JDK 14 and Javafx 14 with the latest version of scene builder
+
+The current version of this program is only runs single player
+The next version will have a menu with multiplayer functionality
+
