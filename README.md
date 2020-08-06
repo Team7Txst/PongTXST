@@ -10,6 +10,15 @@ The goal of this project was to create a Pong like game with an added multiplaye
 
 By using scenebuilder built into the Jetbrains IDE IntelliJ, we were able to create a menu scene within the menu.xml file. In the next version we will add the server-to-client functionality that allows the user to click either single player or multiplayer. The current version is the working code for the single player function.
 
+Classes: 
+
+Main - acts as a main class and handles execution
+MainWindow - handles the game logic and javafx GUI for the single player option
+Menu - the fxml file that displays the menu
+Multiplayer - handles the game logic and javafx GUI for the multiplayer option (front end)
+Client - handles the client side of the backend for the multiplayer class
+Server - handles the server side of the backend for the multiplayer class
+
 Conclusion: While there is more work to be done, we have learned a lot from this project. JavaFX and Java14 was new to all of us, so there was quite the learning curve, but we were able to develop a solid framework for a program that could be finished and polished in less than a month of work. We have also learned a lot about software development principles and the importance of good version control. Learning and using Github has made this project both challenging and easier, as the learning curve for Github was a challenge for all of us but once we figured it out it was immensely helpful. 
 
 
