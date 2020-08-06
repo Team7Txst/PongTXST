@@ -3,16 +3,19 @@ import java.io.OutputStreamWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class TestServer
+public class Client
 {
     public static void main(String[] args) throws Exception
     {
         try {
-            ServerSocket ss = new ServerSocket(39485); //server socket
-            Socket cs = ss.accept();
+            String ip = Inet4Address.getByName("My IP address").getCanonicalHostName();
+            System.out.println(ip);
+            InetSocketAddress sa = new InetSocketAddress(ip, 39485);
+            Socket cs = new Socket();
+            cs.connect(sa);
             DataOutputStream out = new DataOutputStream(cs.getOutputStream());
             DataInputStream in = new DataInputStream(cs.getInputStream());
-            out.writeInt(123456);
+            System.out.println("received : " + in.readInt());
         } catch (IOException e) {
             e.printStackTrace();
         }
