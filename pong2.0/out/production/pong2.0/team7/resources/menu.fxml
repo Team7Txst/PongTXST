@@ -29,7 +29,7 @@
               <items>
                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
                      <children>
-                        <Button alignment="CENTER" contentDisplay="CENTER" layoutX="119.0" layoutY="-3.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="245.0" text="SINGLE PLAYER">
+                        <Button fx:id="buttonSingleplay" alignment="CENTER" contentDisplay="CENTER" layoutX="119.0" layoutY="-3.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="245.0" text="SINGLE PLAYER">
                            <font>
                               <Font size="25.0" />
                            </font>
@@ -38,7 +38,7 @@
                   </AnchorPane>
                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="99.0" prefWidth="482.0">
                      <children>
-                        <Button alignment="CENTER" contentDisplay="CENTER" layoutX="119.0" mnemonicParsing="false" prefHeight="95.0" prefWidth="245.0" text="MULTIPLAYER" textAlignment="CENTER">
+                        <Button fx:id="buttonMultiplay" alignment="CENTER" contentDisplay="CENTER" layoutX="119.0" mnemonicParsing="false" prefHeight="95.0" prefWidth="245.0" text="MULTIPLAYER" textAlignment="CENTER">
                            <font>
                               <Font size="25.0" />
                            </font>
