@@ -6,8 +6,11 @@ import javafx.scene.text.Font;
 import javafx.scene.text.TextAlignment;
 import java.util.Random;
 
+/**
+ * Class for the single player game logic and javafx
+ */
 public class MainWindow {
-    //variable
+    //variables
     static final int width = 800;
     static final int height = 600;
     private static final int PLAYER_HEIGHT = 100;
@@ -25,6 +28,10 @@ public class MainWindow {
     private int scoreP1 = 0;
     private int scoreP2 = 0;
 
+    /**
+     *Runs the JavaFX application and sets some aesthetic params
+     * @param gc
+     */
     public void run(GraphicsContext gc) {
         //set graphics
         //set background color
@@ -98,18 +105,34 @@ public class MainWindow {
         gc.fillRect(playerOneXPos, playerOneYPos, PLAYER_WIDTH, PLAYER_HEIGHT);
     }
 
+    /**
+     * getter
+     * @return
+     */
     public boolean getGameStarted(){
         return gameStarted;
     }
 
+    /**
+     * setter
+     * @param gameStarted
+     */
     public void setGameStarted(boolean gameStarted){
         this.gameStarted= gameStarted;
     }
 
+    /**
+     * getter
+     * @return
+     */
     public double getPlayerOneYPos(){
         return playerOneYPos;
     }
 
+    /**
+     * setter
+     * @param playerOneYPos
+     */
     public void setPlayerOneYPos(double playerOneYPos){
         this.playerOneYPos= playerOneYPos;
     }

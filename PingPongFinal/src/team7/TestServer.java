@@ -4,6 +4,9 @@ import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 
+/**
+ * Backend server class for the multiplayer function
+ */
 public class TestServer
 {
     //public static void main(String[] args) throws Exception

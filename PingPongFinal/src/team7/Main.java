@@ -10,11 +10,19 @@ import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 
+/**
+ * Main class for execution
+ */
 public class Main extends Application {
 
     //variable
     private MainWindow mainWindow= new MainWindow();
 
+    /**
+     * Start class for the JavaFX window
+     * @param stage
+     * @throws Exception
+     */
     public void start(Stage stage) throws Exception {
         stage.setTitle("Not Pong 4 CW reasons");
         //background size

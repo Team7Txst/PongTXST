@@ -5,11 +5,17 @@ import javafx.scene.canvas.GraphicsContext;
 import org.junit.Assert;
 import org.junit.Test;
 
+/**
+ * Class for the JUnit testing
+ */
 public class MainWindowTest {
 
     int width = 800;
     int height = 600;
 
+    /**
+     * Test class for the PlayerOneYPos var
+     */
     @Test
     public void startTestPlayerOneYPos(){
         MainWindow mainWindow = new MainWindow();
@@ -17,7 +23,9 @@ public class MainWindowTest {
         double actual= mainWindow.getPlayerOneYPos();
         Assert.assertEquals(expected, actual, 1);
     }
-
+    /**
+     * Test class to see if the game started
+     */
     @Test
     public void startTestGameStarted(){
         MainWindow mainWindow= new MainWindow();
@@ -26,6 +34,9 @@ public class MainWindowTest {
         Assert.assertEquals(expected, actual);
     }
 
+    /**
+     * Run Test class for the PlayerOneYPos var
+     */
     @Test
     public void runTestPlayerOneYPos(){
         MainWindow mainWindow = new MainWindow();
@@ -37,6 +48,9 @@ public class MainWindowTest {
         Assert.assertEquals(expected, actual, 1);
     }
 
+    /**
+     * Run Test class to see if the game started
+     */
     @Test
     public void runTestGameStarted(){
         MainWindow mainWindow= new MainWindow();
